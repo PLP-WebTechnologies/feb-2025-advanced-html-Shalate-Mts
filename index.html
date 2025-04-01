@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python Assignment Week 2</title>
+</head>
+<body>
+
+    <!-- Romans numerals ordered list -->
+    <h2>A few baking tips..!</h2>
+    <ol type="I">
+        <li>Measure the ingredients correctly.</li>
+        <li>Preheat your oven to the set temperature.</li>
+        <li>Make use of room temperature ingredients.</li>
+        <li>Make use of fresh baking soda/powder.</li>
+        <li>Don't overmix the batter.</li>
+        <li>Rotate the pans for even baking in the oven.</li>   
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful image of a chocolate cake</h2>
+    <img width="400" height="400" src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" alt="chocolate cake image"/>
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shalate Mtshweni</td>
+                <td>10 Gerard Sekoto street, Newtown</td>
+                <td>(071) 456 7890</td>
+                <td>shalate@example.com</td>
+            </tr>
+            <tr>
+                <td>Anne Smith</td>
+                <td>456 Winnie madikizela St, Pretoria</td>
+                <td>(081) 654 3210</td>
+                <td>annesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>Nonhlanhla Khuzwayo</td>
+                <td>789 Anne Road, Glen Austin</td>
+                <td>(060) 123 4567</td>
+                <td>nnkhuzwayo@example.com</td>
+            </tr>
+            <tr>
+                <td>Robert De Bryn</td>
+                <td>321 Ndeyane street, Commercia</td>
+                <td>(079) 227 3833</td>
+                <td>robert11@example.com</td>
+            </tr>
+            <tr>
+                <td>Catherine Mahlangu</td>
+                <td>654 Tambotie Rd, Birch Acres</td>
+                <td>(079) 579 5490</td>
+                <td>mahlangu12@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Choose a password" required><br><br>
+
+            <!-- Date of Birth Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Gender Dropdown -->
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <!-- Preferred Contact Method (Radio Buttons) -->
+            <label>What is your preferred method of contact:</label><br>
+            <input type="radio" id="emailContact" name="contact" value="email" required>
+            <label for="emailContact">Email</label><br>
+            <input type="radio" id="phoneContact" name="contact" value="phone" required>
+            <label for="phoneContact">Phone</label><br><br>
+
+            <!-- Subscription (Checkboxes) -->
+            <label>Subscription to our newsletter!</label><br>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            <label for="newsletter">I want to receive the newsletter</label><br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+</body>
+</html>
